@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="8ae20c987c3d183cd31c61c8c12d70d25c817214d684183f2ed78cfd7a231597.html">Management Medical Service</a></span>
+                > <span class="truncate-60"><a
+                    href="dd90b60b693193039291eb83015636fa2674c90be5e307972002b239b66d4c75.html">Registering medical appointment </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-04-2022 16:27</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Management Medical Service </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, i want to register a medical service inside in page
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="b5a51fc64ff8ca83de06a356b9bd0e5c8cbde54af2b1e8e384a9228fd9a93a6f.html">Register
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Registering medical appointment
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="cf9aa004a8d7764fb2bf089f16443988ad644a1e4dcf4084b2e4cf9ed72f35f3.png" title=" Given Edgar needs to register with a new doctor" width="1920"/>
+                <img src="cf9aa004a8d7764fb2bf089f16443988ad644a1e4dcf4084b2e4cf9ed72f35f3.png" title=" Edgar open web page" width="1920"/>
+                <img src="cf9aa004a8d7764fb2bf089f16443988ad644a1e4dcf4084b2e4cf9ed72f35f3.png" title=" Edgar opens the http://automatizacion.herokuapp.com/pperez/" width="1920"/>
+                <img src="cf9aa004a8d7764fb2bf089f16443988ad644a1e4dcf4084b2e4cf9ed72f35f3.png" title=" Edgar open web page (completed)" width="1920"/>
+                <img src="cf9aa004a8d7764fb2bf089f16443988ad644a1e4dcf4084b2e4cf9ed72f35f3.png" title=" Edgar select doctor page" width="1920"/>
+                <img src="cf9aa004a8d7764fb2bf089f16443988ad644a1e4dcf4084b2e4cf9ed72f35f3.png" title=" Edgar clicks on DOCTOR'S APPOINTMENT BUTTON" width="1920"/>
+                <img src="bead53a39ce23f724f4b02e4a4283164c1b670cfa29dd32ed4ebcf9db8258674.png" title=" Edgar clicks on DOCTOR'S APPOINTMENT BUTTON (completed)" width="1920"/>
+                <img src="bead53a39ce23f724f4b02e4a4283164c1b670cfa29dd32ed4ebcf9db8258674.png" title=" Edgar select doctor page (completed)" width="1920"/>
+                <img src="bead53a39ce23f724f4b02e4a4283164c1b670cfa29dd32ed4ebcf9db8258674.png" title=" Given Edgar needs to register with a new doctor (completed)" width="1920"/>
+                <img src="f5c15e27115101868233599ebda58bbe238465b5e907a1757d4ad3235aee5409.png" title=" When He does register process inside the Hospital page
+| firstname | lastname | telephone |
+| edgar | Erazo | 3213516155 |" width="1920"/>
+                <img src="f5c15e27115101868233599ebda58bbe238465b5e907a1757d4ad3235aee5409.png" title=" Edgar put doctor information" width="1920"/>
+                <img src="f5c15e27115101868233599ebda58bbe238465b5e907a1757d4ad3235aee5409.png" title=" Edgar enters 'edgar' into DOCTOR'S APPOINTMENT BUTTON" width="1920"/>
+                <img src="f5c15e27115101868233599ebda58bbe238465b5e907a1757d4ad3235aee5409.png" title=" Edgar enters 'Erazo' into DOCTOR LASTNAME" width="1920"/>
+                <img src="ecd97296f5497eb499c9ef0b06cb36c46d3f16455f33943fff9da296b7c994f5.png" title=" Edgar enters 'Erazo' into DOCTOR LASTNAME (completed)" width="1920"/>
+                <img src="ecd97296f5497eb499c9ef0b06cb36c46d3f16455f33943fff9da296b7c994f5.png" title=" Edgar enters '3213516155' into DOCTOR TELEPHONE" width="1920"/>
+                <img src="4d7c9e5b3f3e78fa056d0c4a0fc793158084e9566f5d3458d2f8ae20e82e59d9.png" title=" Edgar enters '3213516155' into DOCTOR TELEPHONE (completed)" width="1920"/>
+                <img src="4d7c9e5b3f3e78fa056d0c4a0fc793158084e9566f5d3458d2f8ae20e82e59d9.png" title=" Edgar enters '44.264467877742895' into DOCTOR IDENTIFICATION" width="1920"/>
+                <img src="9c69822455b259506d3901f1bc4b279a2c00ab7ae5217f356e981e28dce56e4f.png" title=" Edgar enters '44.264467877742895' into DOCTOR IDENTIFICATION (completed)" width="1920"/>
+                <img src="9c69822455b259506d3901f1bc4b279a2c00ab7ae5217f356e981e28dce56e4f.png" title=" Edgar clicks on DOCTOR'S APPOINTMENT BUTTON" width="1920"/>
+                <img src="ae1860716d01ba62f39c3ccb797aca1219574d6c56853c3b8b55a40d6ed94a74.png" title=" Edgar clicks on DOCTOR'S APPOINTMENT BUTTON (completed)" width="1920"/>
+                <img src="ae1860716d01ba62f39c3ccb797aca1219574d6c56853c3b8b55a40d6ed94a74.png" title=" Edgar clicks on DOCTOR&Acirc;&acute;S APPOINTMENT BUTTON" width="1920"/>
+                <img src="cf9aa004a8d7764fb2bf089f16443988ad644a1e4dcf4084b2e4cf9ed72f35f3.png" title=" Edgar clicks on DOCTOR&Acirc;&acute;S APPOINTMENT BUTTON (completed)" width="1920"/>
+                <img src="cf9aa004a8d7764fb2bf089f16443988ad644a1e4dcf4084b2e4cf9ed72f35f3.png" title=" Edgar put doctor information (completed)" width="1920"/>
+                <img src="cf9aa004a8d7764fb2bf089f16443988ad644a1e4dcf4084b2e4cf9ed72f35f3.png" title=" When He does register process inside the Hospital page
+| firstname | lastname | telephone |
+| edgar | Erazo | 3213516155 | (completed)" width="1920"/>
+                <img src="cf9aa004a8d7764fb2bf089f16443988ad644a1e4dcf4084b2e4cf9ed72f35f3.png" title=" Then Page shows him that his medical appointment is registered: <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.43</span>
+</div>
+</body>
+</html>
