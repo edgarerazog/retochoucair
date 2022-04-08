@@ -50,5 +50,6 @@ dependencies {
     testImplementation 'org.slf4j:slf4j-simple:1.7.7'
     implementation group: 'net.serenity-bdd', name: 'serenity-screenplay-rest', version: '2.0.28'
     implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '3.9'
+    implementation(group: 'com.github.javafaker', name: 'javafaker', version: '0.15')
 }
 gradle.startParameter.continueOnFailure = true
